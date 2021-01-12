@@ -1,0 +1,39 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  margin: 0;
+}
+.navigation{
+  padding: 10px;
+  border-bottom: 1px solid grey;
+}
+.navigation a {
+  float: top;
+  text-align: center;
+  padding: 14px 20px;
+  margin: 0 30px;
+  text-decoration: none;
+  font-size: 17px;
+  color: #999999;
+}
+.navigation a:hover:not(.active):not(#top_title){
+  background-color: grey;
+  color: white;
+  border-radius: 13px 13px 0 0;
+}
+.navigation a.active{
+  padding-bottom: 12px;
+  border: 2px solid;
+  border-color: #d9d9d9;
+  border-bottom: 2px solid white;
+  color: black;
+  border-radius: 13px 13px 0 0;
+}
+#top_title{
+  font-size: 25px;
+  color: #009999;
+}
+.article {
+  padding: 0 0 0 40px;
+}
